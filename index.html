@@ -15,10 +15,12 @@
 
 <body>
     <section class="about-us">
-        <header class="header">
-            <nav class="header__nav">
+        <section class="header">
+            <header class="header__nav">
                 <div class="header__nav-menu">
-                    <div class="header__logo-text">Cahee</div>
+                    <div class="header__logo-text">
+                        <h2>Cahee</h2>
+                    </div>
                     <div class="header__nav-menu--style">
                         <ul>
                             <li><a href="#">HOME</a></li>
@@ -30,11 +32,32 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+                <div class="humburger-menu">
+                    <input type="checkbox" id="nav-trigger" class="nav-trigger">
+                    <span class="humburger-logo">Cahee</span>
+                    <label for="nav-trigger" class="hamburger__label">
+                        <span class="burger-line-first"></span>
+                        <span class="burger-line-second"></span>
+                        <span class="burger-line-third"></span>
+                        <span class="burger-line-fourth"></span>
+                    </label>
+                    <nav class="nav_hamburger">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#our-services">SERVICES</a></li>
+                            <li><a href="#section__gallery">GALLERY</a></li>
+                            <li><a href="#section__blog">BLOG</a></li>
+                            <li><a href="#section__contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
             <section class="section">
                 <div class="section__info">
                     <h1 class="section__title">Fresh Life</h1>
-                    <span class="section__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    <span class="section__text">Sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut
                         enim
                         ad
                         minima veniam, quis nostrum exercitationem ullamco</span>
@@ -46,7 +69,7 @@
                     </div>
                 </div>
             </section>
-        </header>
+        </section>
         <footer class="footer" id="about">
             <div class="footer__info">
                 <h1 class="footer__title">About Us</h1>
@@ -114,18 +137,22 @@
                     aliquip ex ea commodo consequat.</span>
             </div>
             <div class="gallery__imgs">
-                <div class="peach">
-                    <img src="img\df.png" alt="peach">
+                <div class="gallery__imgs-box">
+                    <div class="peach">
+                        <img src="img\df.png" alt="peach">
+                    </div>
+                    <div class="blueberry-blackberry">
+                        <img src="img\as.png" alt="blueberry">
+                        <img src="img\imm3g.png" alt="blackberry">
+                    </div>
                 </div>
-                <div class="blueberry-blackberry">
-                    <img src="img\as.png" alt="blueberry">
-                    <img src="img\imm3g.png" alt="blackberry">
-                </div>
-                <div class="milkberry">
-                    <img src="img\imee4g.png" alt="milkberry">
-                </div>
-                <div class="persimmon">
-                    <img src="img\imew5g.png" alt="persimmon">
+                <div class="gallery__imgs-box-2">
+                    <div class="milkberry">
+                        <img src="img\imee4g.png" alt="milkberry">
+                    </div>
+                    <div class="persimmon">
+                        <img src="img\imew5g.png" alt="persimmon">
+                    </div>
                 </div>
             </div>
             <div class="gallery__button">
@@ -259,7 +286,7 @@
             <div class="footer__company">
                 <p>© 2015 Company. All right reserved.</p>
             </div>
-            <div class="footer__logo">
+            <div class="footer__logo-cahee">
                 <p>Cahee</p>
             </div>
             <div class="footer__text">
